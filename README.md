@@ -5,7 +5,7 @@ Aquí tienes el contenido completo del manual de usuario en formato **`README.md
 
 -----
 
-# ✅ Manual de Usuario: Aplicación de Análisis Contable
+# ✅ Manual de Usuario: Aplicación de Análisis Contable😎
 
 Esta aplicación en **Streamlit** permite interactuar con la base de datos contable (`contabilidad.db`) para realizar análisis de flujo de caja, identificar los principales gastos y evaluar la concentración de ingresos por socio.
 
@@ -42,7 +42,7 @@ La aplicación se abrirá automáticamente en tu navegador web.
 
 -----
 
-## 📋 2. Manual de Uso (Navegación por Pestañas)
+## 📋 2. Manual de Uso (Navegación por Pestañas) 😎
 
 La aplicación está dividida en tres pestañas principales para organizar las consultas.
 
@@ -68,7 +68,7 @@ Esta sección identifica los 10 conceptos (detalles) que generan el mayor egreso
 | **Tabla** | Lista detallada de los 10 conceptos con su monto total gastado. | Proporciona los valores exactos para cada concepto principal. |
 | **Conclusión** | Identifica el detalle con el mayor gasto. | El propósito es **enfocar la revisión y optimización de costos en los conceptos de mayor impacto**. |
 
-### Pestaña 3: 📈 Concentración de Ingresos
+### Pestaña 3: 📈 Concentración de Ingresos 🤑
 
 Esta sección analiza la fuente y distribución de los ingresos, permitiendo ver la concentración por concepto o por socio a lo largo del tiempo.
 
