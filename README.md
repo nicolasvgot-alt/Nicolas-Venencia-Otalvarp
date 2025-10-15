@@ -1,4 +1,4 @@
-# Nicolas-Venencia-Otalvarp 
+# Nicolas-Venencia-Otalvaro 
 # _Analisis_Contable_QUIMQUIMAGRO
 Este es un gestor de analisis contable realizado para la empresa QuimQuimAgro hecho Streamlit donde puedes consultar montos egresos e ingresos por mes entre as fehcas 2020/01/01 y 2025/12/31
 Aquí tienes el contenido completo del manual de usuario en formato **`README.md`**.
