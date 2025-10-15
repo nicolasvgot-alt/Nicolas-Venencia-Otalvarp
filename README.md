@@ -52,7 +52,7 @@ Esta sección muestra el resumen de Entradas, Salidas y Flujo Neto, agrupado por
 
 | Componente | Descripción | Conclusión |
 | :--- | :--- | :--- |
-| **Filtros (Sidebar)** | Permiten seleccionar la **Tabla Contable** y el **Rango de Fechas** para el análisis. | Define el período que deseas evaluar. |
+| **Filtros (Sidebar)** | Permiten seleccionar la **Tabla Contable📊** y el **Rango de Fechas** para el análisis. | Define el período que deseas evaluar. |
 | **Gráfico (Flujo Neto)** | Gráfico de barras que muestra la diferencia (Ingresos - Egresos) por mes. | **Visualiza la rentabilidad mensual** (verde para ganancia, rojo para pérdida). |
 | **Resumen** | Métricas totales y tabla detallada de los resultados. | Ofrece una visión rápida del desempeño acumulado. |
 | **Conclusión💼** | Muestra el mes con el mayor Flujo Neto. | El propósito es **identificar rápidamente los períodos más rentables y monitorear la tendencia de caja**. |
@@ -65,14 +65,14 @@ Esta sección identifica los 10 conceptos (detalles) que generan el mayor egreso
 | :--- | :--- | :--- |
 | **Formulario** | Contiene el selector de **Tabla Contable** y el **Rango de Fechas**. | Debes hacer clic en **"Consultar Top 10 Gastos"** después de ajustar los filtros. |
 | **Gráfico (Barras)** | Gráfico horizontal que muestra los 10 detalles con mayor gasto, ordenados descendentemente. | Permite **enfocar la atención en las áreas de mayor costo** y evaluar posibles reducciones. |
-| **Tabla** | Lista detallada de los 10 conceptos con su monto total gastado. | Proporciona los valores exactos para cada concepto principal. |
+| **Tabla📊** | Lista detallada de los 10 conceptos con su monto total gastado. | Proporciona los valores exactos para cada concepto principal. |
 | **Conclusión💼** | Identifica el detalle con el mayor gasto. | El propósito es **enfocar la revisión y optimización de costos en los conceptos de mayor impacto**. |
 
 ### Pestaña 3: 📈 Concentración de Ingresos 🤑
 
 Esta sección analiza la fuente y distribución de los ingresos, permitiendo ver la concentración por concepto o por socio a lo largo del tiempo.
 
-| Componente | Opción | Visualización | Conclusión |
+| Componente | Opción | Visualización📊 | Conclusión |
 | :--- | :--- | :--- | :--- |
 | **Socio: "Todos"** | Analiza todos los ingresos en el período. | Gráfico de **barras** que muestra la suma de ingresos por `detalle` (concepto/socio). | El propósito es **medir la dependencia del ingreso en socios/conceptos clave** y evaluar la diversificación. |
 | **Socio: Específico** | Analiza un socio seleccionado. | Gráfico de **línea temporal** que muestra la evolución de las entradas de ese socio en el tiempo. | El propósito es **analizar la estabilidad y frecuencia del flujo de ingreso individual**. |
