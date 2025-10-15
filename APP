@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Oct 13 00:38:55 2025
+Created on Mon Oct 15 15:38:55 2025
 
-@author: piper
+@author: Nicolas Venencia Otalvaro
 """
 import streamlit as st
 import sqlite3
