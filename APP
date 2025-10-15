@@ -118,9 +118,9 @@ def render_monthly_analysis(conn):
         flujo_neto_periodo = total_entrada_periodo - total_salida_periodo
 
         col1, col2, col3 = st.columns(3)
-        col1.metric("Total Entradas", f"${total_entrada_periodo:,.0f}", "⬆️")
-        col2.metric("Total Salidas", f"${total_salida_periodo:,.0f}", "⬇️")
-        col3.metric("Flujo Neto", f"${flujo_neto_periodo:,.0f}", "⚖️")
+        col1.metric("Total Entradas", f"${total_entrada_periodo:,.0f}", "➕")
+        col2.metric("Total Salidas", f"${total_salida_periodo:,.0f}", "➖")
+        col3.metric("Flujo Neto", f"${flujo_neto_periodo:,.0f}", "🟰")
 
         # --- CONCLUSIÓN ---
         max_flujo_neto = df_results['Flujo_Neto'].max()
@@ -322,7 +322,7 @@ def main():
 
     if conn is not None:
         
-        tab1, tab2, tab3 = st.tabs(["📊 Análisis Mensual", "💸 Top 10 Gastos", "💰 Concentración de Ingresos"])
+        tab1, tab2, tab3 = st.tabs(["📊 Análisis Mensual", "💵 Top 10 Gastos", "🎁 Concentración de Ingresos"])
 
         with tab1:
             render_monthly_analysis(conn)
