@@ -55,7 +55,7 @@ Esta sección muestra el resumen de Entradas, Salidas y Flujo Neto, agrupado por
 | **Filtros (Sidebar)** | Permiten seleccionar la **Tabla Contable** y el **Rango de Fechas** para el análisis. | Define el período que deseas evaluar. |
 | **Gráfico (Flujo Neto)** | Gráfico de barras que muestra la diferencia (Ingresos - Egresos) por mes. | **Visualiza la rentabilidad mensual** (verde para ganancia, rojo para pérdida). |
 | **Resumen** | Métricas totales y tabla detallada de los resultados. | Ofrece una visión rápida del desempeño acumulado. |
-| **Conclusión** | Muestra el mes con el mayor Flujo Neto. | El propósito es **identificar rápidamente los períodos más rentables y monitorear la tendencia de caja**. |
+| **Conclusión💼** | Muestra el mes con el mayor Flujo Neto. | El propósito es **identificar rápidamente los períodos más rentables y monitorear la tendencia de caja**. |
 
 ### Pestaña 2: 📈 Top 10 Gastos
 
@@ -66,7 +66,7 @@ Esta sección identifica los 10 conceptos (detalles) que generan el mayor egreso
 | **Formulario** | Contiene el selector de **Tabla Contable** y el **Rango de Fechas**. | Debes hacer clic en **"Consultar Top 10 Gastos"** después de ajustar los filtros. |
 | **Gráfico (Barras)** | Gráfico horizontal que muestra los 10 detalles con mayor gasto, ordenados descendentemente. | Permite **enfocar la atención en las áreas de mayor costo** y evaluar posibles reducciones. |
 | **Tabla** | Lista detallada de los 10 conceptos con su monto total gastado. | Proporciona los valores exactos para cada concepto principal. |
-| **Conclusión** | Identifica el detalle con el mayor gasto. | El propósito es **enfocar la revisión y optimización de costos en los conceptos de mayor impacto**. |
+| **Conclusión💼** | Identifica el detalle con el mayor gasto. | El propósito es **enfocar la revisión y optimización de costos en los conceptos de mayor impacto**. |
 
 ### Pestaña 3: 📈 Concentración de Ingresos 🤑
 
