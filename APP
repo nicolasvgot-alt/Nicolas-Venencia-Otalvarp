@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# -- coding: utf-8 --
 """
 Created on Mon Oct 15 15:38:55 2025
 
@@ -92,7 +92,7 @@ def render_monthly_analysis(conn):
         Mes_Anio;
     """
 
-    st.info(f"Rango de Fechas: **{start_date_str}** hasta **{end_date_str}**")
+    st.info(f"Rango de Fechas: *{start_date_str}* hasta *{end_date_str}*")
 
     df_results = run_query(conn, sql_query)
 
@@ -128,7 +128,7 @@ def render_monthly_analysis(conn):
         
         st.markdown("---")
         st.subheader("Conclusión del Análisis Mensual")
-        st.success(f"📈 **El mejor mes** fue **{mes_max_flujo}** con un Flujo Neto de **${max_flujo_neto:,.0f}**. El propósito de esta consulta es **identificar rápidamente los períodos más rentables y monitorear la tendencia de caja**.")
+        st.success(f"📈 *El mejor mes* fue *{mes_max_flujo}* con un Flujo Neto de *${max_flujo_neto:,.0f}. El propósito de esta consulta es **identificar rápidamente los períodos más rentables y monitorear la tendencia de caja*.")
 
 
     else:
@@ -156,7 +156,7 @@ def render_top_expenses(conn):
         start_date_str = date_start.strftime('%Y-%m-%d')
         end_date_str = date_end.strftime('%Y-%m-%d')
         
-        st.info(f"Analizando gastos (columna **salida**) de **{selected_table}** entre **{start_date_str}** y **{end_date_str}**.")
+        st.info(f"Analizando gastos (columna *salida) de *{selected_table}* entre *{start_date_str}* y *{end_date_str}**.")
 
         sql_query = f"""
         SELECT 
@@ -197,7 +197,7 @@ def render_top_expenses(conn):
             
             st.markdown("---")
             st.subheader("Conclusión del Top 10 Gastos")
-            st.error(f"⚠️ El **mayor gasto** es **{top_detalle}** con **${top_monto:,.0f}**. El propósito de esta consulta es **enfocar la revisión y optimización de costos en los conceptos de mayor impacto**.")
+            st.error(f"⚠️ El *mayor gasto* es *{top_detalle}* con *${top_monto:,.0f}. El propósito de esta consulta es **enfocar la revisión y optimización de costos en los conceptos de mayor impacto*.")
 
         else:
             st.warning("No se encontraron gastos (salidas) para los filtros seleccionados.")
@@ -233,7 +233,7 @@ def render_socio_income(conn):
         start_date_str = date_range[0].strftime('%Y-%m-%d')
         end_date_str = date_range[1].strftime('%Y-%m-%d')
         
-        st.info(f"Analizando ingresos de **{income_table}** entre **{start_date_str}** y **{end_date_str}**.")
+        st.info(f"Analizando ingresos de *{income_table}* entre *{start_date_str}* y *{end_date_str}*.")
 
         socio_filter = ""
         if selected_socio != "Todos":
@@ -278,7 +278,7 @@ def render_socio_income(conn):
                 max_ingreso = df_grouped['Ingreso_Total'].max()
                 st.markdown("---")
                 st.subheader("Conclusión de Concentración de Ingresos")
-                st.info(f"👑 **El mayor contribuidor** de ingresos es **{max_socio}** con **${max_ingreso:,.0f}**. El propósito de esta consulta es **medir la dependencia del ingreso en socios/conceptos clave** y evaluar la diversificación.")
+                st.info(f"👑 *El mayor contribuidor* de ingresos es *{max_socio}* con *${max_ingreso:,.0f}. El propósito de esta consulta es **medir la dependencia del ingreso en socios/conceptos clave* y evaluar la diversificación.")
 
             else:
                 # --- VISUALIZACIÓN B: Línea temporal para UN Socio ---
@@ -298,7 +298,7 @@ def render_socio_income(conn):
                 num_transacciones = df_income.shape[0]
                 st.markdown("---")
                 st.subheader("Conclusión de Concentración de Ingresos")
-                st.info(f"👤 El socio **{selected_socio}** generó un total de **${total_socio:,.0f}** en **{num_transacciones} transacciones**. El propósito de esta consulta es **analizar la estabilidad y frecuencia del flujo de ingreso individual**.")
+                st.info(f"👤 El socio *{selected_socio}* generó un total de *${total_socio:,.0f}* en *{num_transacciones} transacciones. El propósito de esta consulta es **analizar la estabilidad y frecuencia del flujo de ingreso individual*.")
 
         else:
             st.warning(f"No se encontraron ingresos para el socio/detalle '{selected_socio}' en el rango de fechas seleccionado.")
