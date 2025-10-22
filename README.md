@@ -85,6 +85,7 @@ Esta sección analiza la fuente y distribución de los ingresos, permitiendo ver
   * **Conexión a la DB**: Se utiliza `sqlite3` y se asume que la columna `fecha` es compatible con el formato `YYYY-MM-DD` para el uso de la función `strftime` en la agrupación por mes.
   * **Análisis de Socios**: El análisis de socios asume que el nombre del socio está contenido en la columna **`detalle`** de las tablas contables (e.g., `edr2025`) al registrarse una `entrada`. El código usa el filtro `detalle LIKE '%{socio}%'` para realizar esta búsqueda.
   * **Gráficos**: Se utiliza la librería **Altair** para generar visualizaciones interactivas de alta calidad.
+<img width="1280" height="647" alt="image" src="https://github.com/user-attachments/assets/170d16db-d93a-41f4-89c3-2236b84e7d56" />
 
 📸
 
