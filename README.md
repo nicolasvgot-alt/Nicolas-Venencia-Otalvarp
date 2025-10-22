@@ -86,6 +86,8 @@ Esta sección analiza la fuente y distribución de los ingresos, permitiendo ver
   * **Análisis de Socios**: El análisis de socios asume que el nombre del socio está contenido en la columna **`detalle`** de las tablas contables (e.g., `edr2025`) al registrarse una `entrada`. El código usa el filtro `detalle LIKE '%{socio}%'` para realizar esta búsqueda.
   * **Gráficos**: Se utiliza la librería **Altair** para generar visualizaciones interactivas de alta calidad.
 <img width="1280" height="647" alt="image" src="https://github.com/user-attachments/assets/170d16db-d93a-41f4-89c3-2236b84e7d56" />
+<img width="1280" height="643" alt="image" src="https://github.com/user-attachments/assets/7672f0f3-b1c5-4102-b8d1-d564ba9b725f" />
+
 
 📸
 
